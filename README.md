@@ -5,7 +5,9 @@ A RAG-powered chatbot for M.A. Economics students to query RBI reports, Union Bu
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
 
 ---
+## LIVE DEMO : https://rag-india-economics-intelligence-vzvhagbc2sitmmdtkcwpvr.streamlit.app/
 
+---
 ## Screenshots
 
 ### Home — Upload & Process Documents
