@@ -12,3 +12,4 @@ langchain-chroma
 faiss-cpu
 torch
 torchvision
+transformers==4.51.3
