@@ -70,7 +70,7 @@ def ask_question(question, vectorstore):
     from langchain_core.output_parsers import StrOutputParser
     from langchain_core.runnables import RunnablePassthrough
 
-    llm = ChatGroq(api_key=GROQ_API_KEY, model_name="llama-3.1-8b-instant", temperature=0.2)
+    llm = ChatGroq(api_key=GROQ_API_KEY, model_name="openai/gpt-oss-20b", temperature=0.2)
     retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
     prompt = PromptTemplate(
